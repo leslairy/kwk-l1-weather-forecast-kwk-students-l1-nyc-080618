@@ -26,8 +26,8 @@ description(weather)
 
 
 def celcius(weather)
-celcius=weather[:temperature_farenheit]
-puts celcius
+celcius=weather[:temperature_farenheit]*
+celcius
 end
 celcius(weather)
 # You'll want to use the each method to iterate over the hash and print out
