@@ -17,7 +17,7 @@ end
 description(weather)
  
  def words(city,description,temperature_farenheit)
-    puts "The weather in :#{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
+    puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
  end
  words(weather[:city],weather[:description],weather[:temperature_farenheit])
 
