@@ -26,7 +26,7 @@ description(weather)
 
 
 def celcius(weather)
-celcius=(weather[:temperature_farenheit]-32)*.55556
+celcius=(weather[:temperature_farenheit]-32)/1.8
 celcius
 end
 celcius(weather)
