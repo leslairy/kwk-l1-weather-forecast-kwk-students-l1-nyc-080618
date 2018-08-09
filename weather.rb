@@ -24,7 +24,7 @@ description(weather)
 
 #4. Write a method that takes in the weather hash as an argument.
 def 
-
+end
 
 
 
